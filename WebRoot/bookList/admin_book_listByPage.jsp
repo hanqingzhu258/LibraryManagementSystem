@@ -103,7 +103,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 			int totalPages=0;
 			int exact=totalCount%pageSize;
-			if(exact==0){
+			
+			if(totalCount==0){totalPages=1;}
+			else if(exact==0){
 				totalPages=totalCount/pageSize;
 			}else{
 				totalPages=totalCount/pageSize+1;

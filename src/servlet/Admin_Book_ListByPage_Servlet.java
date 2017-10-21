@@ -66,7 +66,9 @@ public class Admin_Book_ListByPage_Servlet extends HttpServlet {
 		totalCount = bookDao.getBookTotalCount();
 		
 		int exact = totalCount % pageSize;
-		if (exact == 0) {
+		
+		if(totalCount==0){totalPages=1;}
+		else if (exact == 0) {
 			totalPages = totalCount / pageSize;
 		} else {
 			totalPages = totalCount / pageSize + 1;
