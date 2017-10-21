@@ -1,0 +1,22 @@
+<html>
+<head>
+	<script type="text/javascript">
+		function query(){
+			var condition=document.getElementById("queryCondition").value;
+			if(condition==""){alert("查询条件不能为空！！");}
+			else{
+				window.parent.right.location.href="../admin_book_query?condition="+condition;
+			}
+		}
+		
+	</script>
+</head>
+<body>
+<span style="font-size:40px">图书管理系统</span>
+<span>
+		<input type="text" name="queryCondition" id="queryCondition">
+		<input type="button" value="搜索" onclick="query()">	
+</span>		
+
+</body>
+</html>

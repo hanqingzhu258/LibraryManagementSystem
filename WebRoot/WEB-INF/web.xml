@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>LibraryManagementSystem</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Admin_Login_Servlet</servlet-name>
+    <servlet-class>servlet.Admin_Login_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Admin_Book_List_Servlet</servlet-name>
+    <servlet-class>servlet.Admin_Book_List_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Admin_User_List_Servlet</servlet-name>
+    <servlet-class>servlet.Admin_User_List_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Admin_Book_Detail_Servlet</servlet-name>
+    <servlet-class>servlet.Admin_Book_Detail_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Admin_Book_Update_Servlet</servlet-name>
+    <servlet-class>servlet.Admin_Book_Update_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Admin_Book_Delete</servlet-name>
+    <servlet-class>servlet.Admin_Book_Delete_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Admin_Book_Add_Servlet</servlet-name>
+    <servlet-class>servlet.Admin_Book_Add_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Admin_User_Delete_Servlet</servlet-name>
+    <servlet-class>servlet.Admin_User_Delete_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginOut</servlet-name>
+    <servlet-class>servlet.LoginOut</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Admin_Book_Query_Servlet</servlet-name>
+    <servlet-class>servlet.Admin_Book_Query_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User_Book_List_Servlet</servlet-name>
+    <servlet-class>servlet.User_Book_List_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User_Book_Borrow_Servlet</servlet-name>
+    <servlet-class>servlet.User_Book_Borrow_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User_Book_Borrowed_Servlet</servlet-name>
+    <servlet-class>servlet.User_Book_Borrowed_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User_Book_Return_Servlet</servlet-name>
+    <servlet-class>servlet.User_Book_Return_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User_Book_Detail_Servlet</servlet-name>
+    <servlet-class>servlet.User_Book_Detail_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User_Login_Servlet</servlet-name>
+    <servlet-class>servlet.User_Login_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User_LoginOut_Servlet</servlet-name>
+    <servlet-class>servlet.User_LoginOut_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User_Book_Query_Servlet</servlet-name>
+    <servlet-class>servlet.User_Book_Query_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User_Register_Servlet</servlet-name>
+    <servlet-class>servlet.User_Register_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User_Book_ListByPage_Servlet</servlet-name>
+    <servlet-class>servlet.User_Book_ListByPage_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User_Book_BorrowedByPage_Servlet</servlet-name>
+    <servlet-class>servlet.User_Book_BorrowedByPage_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Admin_Book_ListByPage_Servlet</servlet-name>
+    <servlet-class>servlet.Admin_Book_ListByPage_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Admin_User_ListByPage_Servlet</servlet-name>
+    <servlet-class>servlet.Admin_User_ListByPage_Servlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Admin_Login_Servlet</servlet-name>
+    <url-pattern>/admin_login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin_Book_List_Servlet</servlet-name>
+    <url-pattern>/admin_book_list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin_User_List_Servlet</servlet-name>
+    <url-pattern>/admin_user_list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin_Book_Detail_Servlet</servlet-name>
+    <url-pattern>/admin_book_detail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin_Book_Update_Servlet</servlet-name>
+    <url-pattern>/admin_book_update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin_Book_Delete</servlet-name>
+    <url-pattern>/admin_book_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin_Book_Add_Servlet</servlet-name>
+    <url-pattern>/admin_book_add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin_User_Delete_Servlet</servlet-name>
+    <url-pattern>/admin_user_delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginOut</servlet-name>
+    <url-pattern>/loginout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin_Book_Query_Servlet</servlet-name>
+    <url-pattern>/admin_book_query</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_Book_List_Servlet</servlet-name>
+    <url-pattern>/user_book_list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_Book_Borrow_Servlet</servlet-name>
+    <url-pattern>/user_book_borrow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_Book_Borrowed_Servlet</servlet-name>
+    <url-pattern>/user_book_borrowed</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_Book_Return_Servlet</servlet-name>
+    <url-pattern>/user_book_return</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_Book_Detail_Servlet</servlet-name>
+    <url-pattern>/user_book_detail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_Login_Servlet</servlet-name>
+    <url-pattern>/user_login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_LoginOut_Servlet</servlet-name>
+    <url-pattern>/user_loginout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_Book_Query_Servlet</servlet-name>
+    <url-pattern>/user_book_query</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_Register_Servlet</servlet-name>
+    <url-pattern>/user_register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_Book_ListByPage_Servlet</servlet-name>
+    <url-pattern>/user_book_listByPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>User_Book_BorrowedByPage_Servlet</servlet-name>
+    <url-pattern>/user_book_borrowedByPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin_Book_ListByPage_Servlet</servlet-name>
+    <url-pattern>/admin_book_listByPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin_User_ListByPage_Servlet</servlet-name>
+    <url-pattern>/admin_user_listByPage</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+</web-app>
